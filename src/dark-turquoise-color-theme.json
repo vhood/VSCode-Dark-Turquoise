@@ -1,0 +1,268 @@
+{
+	"name": "Dark Turquoise Theme",
+	"colors": {
+		"input.background": "~background~",
+		"input.border": "~main~",
+		"dropdown.background": "~background~",
+		"dropdown.border": "~main~",
+		"inputOption.activeBorder": "~main~",
+		"settings.textInputBackground": "~background~",
+		"settings.numberInputBackground": "~background~",
+		"dropdown.listBackground": "~background~",
+		"button.background": "~main~",
+		"list.focusBackground": "~darkMain~",
+		"list.inactiveSelectionBackground": "~darkMain~",
+		"list.inactiveSelectionForeground": "~lightMain~",
+		"list.warningForeground": "~warning~",
+		"list.errorForeground": "~error~",
+		"selection.background": "~main~",
+		"list.hoverBackground": "~darkMain~",
+		"list.highlightForeground": "~lightMain~",
+		"list.activeSelectionBackground": "~main~",
+		"badge.background": "~darkMain~",
+		"badge.foreground": "~string~",
+		"titleBar.activeBackground": "~black~",
+		"menu.background": "~background~",
+		"menu.foreground": "~white~",
+		"menubar.selectionBackground": "~darkMain~",
+		"widget.shadow": "~black~",
+		"focusBorder": "~main~",
+		"breadcrumb.focusForeground": "~lightMain~",
+		"editorGroupHeader.tabsBackground": "~darkMain~",
+		"editorGroupHeader.tabsBorder": "~darkMain~",
+		"editorLineNumber.activeForeground": "~lightMain~",
+		"tab.inactiveBackground": "~darkMain~",
+		"tab.border": "~background~",
+		"tab.hoverBackground": "~background~",
+		"tab.activeBorderTop": "~main~",
+		"editor.foreground": "~white~",
+		"editor.background": "~background~",
+		"pickerGroup.foreground": "~string~",
+		"pickerGroup.border": "~main~",
+		"editor.selectionBackground": "~main~",
+		"minimap.selectionHighlight": "~lightMain~",
+		"editorWidget.background": "~black~",
+		"editorHoverWidget.background": "~black~",
+		"editor.lineHighlightBackground": "~darkMain~",
+		"editorCursor.foreground": "~lightMain~",
+		"editorWhitespace.foreground": "~darkGrey~",
+		"editorWidget.border": "~main~",
+		"editorBracketMatch.border": "~purple~",
+		"activityBar.background": "~darkMain~",
+		"activityBar.foreground": "~white~",
+		"statusBar.background": "~darkMain~",
+		"statusBar.debuggingBackground": "~purple~",
+		"statusBar.noFolderBackground": "~darkGrey~",
+		"statusBarItem.remoteBackground": "~black~",
+		"statusBarItem.remoteForeground": "~string~",
+		"sideBar.background": "~black~",
+		"sideBar.border": "~main~",
+		"sideBarSectionHeader.background": "~main~",
+		"sideBarSectionHeader.foreground": "~white~",
+		"progressBar.background": "~string~",
+		"terminal.background": "~black~",
+		"debugToolBar.background": "~black~",
+		"editorPane.background": "~main~",
+		"notifications.background": "~black~"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "~main~"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "~string~"
+			}
+		},
+		{
+			"name": "Template Definition",
+			"scope": [
+				"punctuation.definition.template-expression",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "~purple~"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "~string~"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "~lightMain~"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": "constant.character, constant.other",
+			"settings": {
+				"foreground": "~white~"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "~white~"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "~blue~"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
+			"settings": {
+				"foreground": "~lightGrey~"
+			}
+		},
+		{
+			"name": "Quotes",
+			"scope": "punctuation.definition.string",
+			"settings": {
+				"foreground": "~red~"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "~red~"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "~green~"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "~green~"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"settings": {
+				"fontStyle": "bold underline",
+				"foreground": "~red~"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "~white~"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "~yellow~"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "~blue~"
+			}
+		},
+		{
+			"name": "Tag brackets",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "~blue~"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "~green~"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "~lightMain~"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "~red~"
+			}
+		},
+		{
+			"name": "Library class",
+			"scope": "support.class",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "~lightMain~"
+			}
+		},
+		{
+			"name": "Library type",
+			"scope": "support.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "~lightMain~"
+			}
+		},
+		{
+			"name": "JSON String",
+			"scope": "meta.structure.dictionary.json string.quoted.double.json",
+			"settings": {
+				"foreground": "~string~"
+			}
+		},
+		{
+			"name": "Exceptions",
+			"scope": [
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "~lightMain~"
+			}
+		},
+		{
+			"name": "this-self",
+			"scope": "variable.language",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "~lightMain~"
+			}
+		}
+	]
+}

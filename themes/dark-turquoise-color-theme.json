@@ -1,0 +1,268 @@
+{
+	"name": "Dark Turquoise Theme",
+	"colors": {
+		"input.background": "#001314",
+		"input.border": "#116062",
+		"dropdown.background": "#001314",
+		"dropdown.border": "#116062",
+		"inputOption.activeBorder": "#116062",
+		"settings.textInputBackground": "#001314",
+		"settings.numberInputBackground": "#001314",
+		"dropdown.listBackground": "#001314",
+		"button.background": "#116062",
+		"list.focusBackground": "#10262e",
+		"list.inactiveSelectionBackground": "#10262e",
+		"list.inactiveSelectionForeground": "#5ec4cd",
+		"list.warningForeground": "#ff7575",
+		"list.errorForeground": "#ff4040",
+		"selection.background": "#116062",
+		"list.hoverBackground": "#10262e",
+		"list.highlightForeground": "#5ec4cd",
+		"list.activeSelectionBackground": "#116062",
+		"badge.background": "#10262e",
+		"badge.foreground": "#deb887",
+		"titleBar.activeBackground": "#111111",
+		"menu.background": "#001314",
+		"menu.foreground": "#f5fffa",
+		"menubar.selectionBackground": "#10262e",
+		"widget.shadow": "#111111",
+		"focusBorder": "#116062",
+		"breadcrumb.focusForeground": "#5ec4cd",
+		"editorGroupHeader.tabsBackground": "#10262e",
+		"editorGroupHeader.tabsBorder": "#10262e",
+		"editorLineNumber.activeForeground": "#5ec4cd",
+		"tab.inactiveBackground": "#10262e",
+		"tab.border": "#001314",
+		"tab.hoverBackground": "#001314",
+		"tab.activeBorderTop": "#116062",
+		"editor.foreground": "#f5fffa",
+		"editor.background": "#001314",
+		"pickerGroup.foreground": "#deb887",
+		"pickerGroup.border": "#116062",
+		"editor.selectionBackground": "#116062",
+		"minimap.selectionHighlight": "#5ec4cd",
+		"editorWidget.background": "#111111",
+		"editorHoverWidget.background": "#111111",
+		"editor.lineHighlightBackground": "#10262e",
+		"editorCursor.foreground": "#5ec4cd",
+		"editorWhitespace.foreground": "#333333",
+		"editorWidget.border": "#116062",
+		"editorBracketMatch.border": "#da70d6",
+		"activityBar.background": "#10262e",
+		"activityBar.foreground": "#f5fffa",
+		"statusBar.background": "#10262e",
+		"statusBar.debuggingBackground": "#da70d6",
+		"statusBar.noFolderBackground": "#333333",
+		"statusBarItem.remoteBackground": "#111111",
+		"statusBarItem.remoteForeground": "#deb887",
+		"sideBar.background": "#111111",
+		"sideBar.border": "#116062",
+		"sideBarSectionHeader.background": "#116062",
+		"sideBarSectionHeader.foreground": "#f5fffa",
+		"progressBar.background": "#deb887",
+		"terminal.background": "#111111",
+		"debugToolBar.background": "#111111",
+		"editorPane.background": "#116062",
+		"notifications.border": "#116062"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#116062"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#deb887"
+			}
+		},
+		{
+			"name": "Template Definition",
+			"scope": [
+				"punctuation.definition.template-expression",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#da70d6"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#deb887"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5ec4cd"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": "constant.character, constant.other",
+			"settings": {
+				"foreground": "#f5fffa"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#f5fffa"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#1faee9"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
+			"settings": {
+				"foreground": "#c0c0c0"
+			}
+		},
+		{
+			"name": "Quotes",
+			"scope": "punctuation.definition.string",
+			"settings": {
+				"foreground": "#f53d68"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#f53d68"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#50c878"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#50c878"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"settings": {
+				"fontStyle": "bold underline",
+				"foreground": "#f53d68"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#f5fffa"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#fbec5d"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#1faee9"
+			}
+		},
+		{
+			"name": "Tag brackets",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#1faee9"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#50c878"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#5ec4cd"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f53d68"
+			}
+		},
+		{
+			"name": "Library class",
+			"scope": "support.class",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5ec4cd"
+			}
+		},
+		{
+			"name": "Library type",
+			"scope": "support.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#5ec4cd"
+			}
+		},
+		{
+			"name": "JSON String",
+			"scope": "meta.structure.dictionary.json string.quoted.double.json",
+			"settings": {
+				"foreground": "#deb887"
+			}
+		},
+		{
+			"name": "Exceptions",
+			"scope": [
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#5ec4cd"
+			}
+		},
+		{
+			"name": "this-self",
+			"scope": "variable.language",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5ec4cd"
+			}
+		}
+	]
+}

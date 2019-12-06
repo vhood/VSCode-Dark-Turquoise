@@ -13,8 +13,6 @@
 		"list.focusBackground": "~darkMain~",
 		"list.inactiveSelectionBackground": "~darkMain~",
 		"list.inactiveSelectionForeground": "~lightMain~",
-		"list.warningForeground": "~warning~",
-		"list.errorForeground": "~error~",
 		"selection.background": "~main~",
 		"list.hoverBackground": "~darkMain~",
 		"list.highlightForeground": "~lightMain~",
@@ -63,7 +61,7 @@
 		"terminal.background": "~black~",
 		"debugToolBar.background": "~black~",
 		"editorPane.background": "~main~",
-		"notifications.background": "~black~"
+		"notifications.background": "~darkGrey~"
 	},
 	"tokenColors": [
 		{

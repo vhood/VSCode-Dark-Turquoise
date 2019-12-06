@@ -6,8 +6,6 @@ const fs = require('fs')
         'background': '#001314',
         'black': '#111111',
         'white': '#f5fffa',
-        'error': '#ff4040',
-        'warning': '#ff7575',
         'lightGrey': '#c0c0c0',
         'darkGrey': '#333333',
         'string': '#deb887',

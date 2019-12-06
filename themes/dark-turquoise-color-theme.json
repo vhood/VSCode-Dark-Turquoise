@@ -13,8 +13,6 @@
 		"list.focusBackground": "#10262e",
 		"list.inactiveSelectionBackground": "#10262e",
 		"list.inactiveSelectionForeground": "#5ec4cd",
-		"list.warningForeground": "#ff7575",
-		"list.errorForeground": "#ff4040",
 		"selection.background": "#116062",
 		"list.hoverBackground": "#10262e",
 		"list.highlightForeground": "#5ec4cd",
@@ -63,7 +61,7 @@
 		"terminal.background": "#111111",
 		"debugToolBar.background": "#111111",
 		"editorPane.background": "#116062",
-		"notifications.border": "#116062"
+		"notifications.background": "#333333"
 	},
 	"tokenColors": [
 		{

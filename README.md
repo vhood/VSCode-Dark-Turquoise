@@ -1,68 +1,76 @@
 # Dark Turquoise
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
+[![License](https://img.shields.io/github/license/999-Victor/vscode-dark-turquoise-theme)](https://github.com/999-Victor/vscode-dark-turquoise-theme)  
+[![Issues](https://img.shields.io/github/issues/999-Victor/vscode-dark-turquoise-theme)](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)  
 
-A Visual Studio Code theme based on turquoise shades. Calm color scheme helps you focus on all code points without straining.
-Match brackets have purple border to have your attention.  
-I hope you'll enjoy it! 💥
+A turquoise-based Visual Studio Code theme.  
+Calm color scheme with rainbow color palette helps you focus on all code points without straining.  
+Borders of matched bracket pair are highlighted in purple for your attention (configurable).  
 
-## Workspace
+**[Vote please](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)**
 
-![Workspace](workspace.png)
+***
 
-### TypeScript Example
+## Theme
 
-![Code](code.png)
-
-### HTML Example
-
-![Code](html.png)
+**Dark Turquoise ~ Rainbow**  
+This theme is better for low brightness displays
+![Dark Turquoise ~ Rainbow](rainbow.png)
 
 ## Installation
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. Launch Visual Studio Code
-3. Choose **Extensions** from activity bar _(cmd+shift+X)_
-4. Search for `dark turquoise`
-5. Click **Install** to install it
-6. Click: Manage > **Color Theme** _(cmd+K+T)_
-7. Choose **Dark Turquoise**
+Install the theme from [here](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise) or follow the steps:
 
-## Configuration
-
-You may change the color of bracket match borders (_default it's purple_), follow the steps:
-
-1. Open User Settings _(cmd+,)_
-2. Search settings.json
-3. Edit settings.json
-4. add `"editorBracketMatch.border": "#c0c0c0",` (_you may choose any color_)
-
-### Other extensios at the preview
-
-The indentation colorized by [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) whith these user settings
-
-```json
-"indentRainbow.colors": [
-    "rgba(104,56,210,0.07)",
-    "rgba(65,136,210,0.07)",
-    "rgba(13,88,166,0.07)",
-    "rgba(4,55,108,0.07)",
-],
-```
-
-You can also see the icons of these expressions:
-
-* [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
-* [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-* [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
-
-### Explanation
+1. Launch [Code](https://code.visualstudio.com/).
+2. Choose Extensions from the activity bar or serch command `Intall Extentions` or press `cmd+shift+X`.
+3. Search for **dark turquoise**.
+4. Install **Dark Turquoise Theme**.
+5. Choose `Preferenses: Color Theme` or press `cmd+K+T`
+6. Select **Dark Turquoise ~ Rainbow** and enjoy!
 
 **cmd** is **ctrl** in Windows.
 
-### Communication
+## Configuration
 
-Please leave a review ⭐[here](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)⭐  
-Questions and suggestions: [Github Issues](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)
+You may change the color of brackes match border (*default it's purple*), to do this follow the steps:
+
+1. Open User Settings (press `cmd+,` / `ctrl+,`)
+2. Search *settings.json*
+3. Edit *settings.json*
+4. add `"editorBracketMatch.border": "#dcdcdc"` (*you may choose any color*)
+
+### Preferences at the preview
+
+I recommend the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension with these user settings
+
+```json
+"indentRainbow.colors": [
+    "rgba(255,255,255,0.00)",
+    "rgba(255,255,255,0.02)",
+    "rgba(255,255,255,0.04)",
+    "rgba(255,255,255,0.02)",
+],
+```
+
+All brackets are colorized to gray by [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+
+```json
+"bracket-pair-colorizer-2.colors": [
+    "#dcdcdc",
+    "#bbbbbb"
+],
+```
+
+also this extension adds nice current section lines.
+
+***
+
+[Release Notes](CHANGELOG.md)  
+[Issues](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)
+
+***
+
+[![Paypal.me](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/999Victor)  

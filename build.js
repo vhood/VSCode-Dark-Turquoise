@@ -6,8 +6,7 @@ const fs = require('fs')
         'background': '#001314',
         'black': '#111111',
         'white': '#f5fffa',
-        'lightGrey': '#c0c0c0',
-        'darkGrey': '#333333',
+        'darkGrey': '#1e1e1e',
         'string': '#deb887',
         'red': '#f53d68',
         'yellow': '#fbec5d',
@@ -16,7 +15,7 @@ const fs = require('fs')
         'purple': '#da70d6'
     };
 
-let DarkTurquoise = JSON.stringify(require('./src/dark-turquoise-color-theme.json'), null, '\t');
+let DarkTurquoise = JSON.stringify(require('./src/dark-turquoise~rainbow.json'));
 
 function parseTheme(theme)
 {
@@ -25,7 +24,7 @@ function parseTheme(theme)
         for (let color in colors) {
             result = result.replace(new RegExp(`~${color}~`, 'g'), `${colors[color]}`);
         }
-        const bool = fs.writeFileSync('./themes/dark-turquoise-color-theme.json', result);
+        const bool = fs.writeFileSync('./themes/dark-turquoise-rainbow.json', result);
     } catch (err) {
         console.error(err);
     }

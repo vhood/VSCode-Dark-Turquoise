@@ -1,5 +1,4 @@
 {
-	"name": "Dark Turquoise Theme",
 	"colors": {
 		"input.background": "~background~",
 		"input.border": "~main~",
@@ -20,7 +19,7 @@
 		"badge.background": "~darkMain~",
 		"badge.foreground": "~string~",
 		"titleBar.activeBackground": "~black~",
-		"menu.background": "~background~",
+		"menu.background": "~darkGrey~",
 		"menu.foreground": "~white~",
 		"menubar.selectionBackground": "~darkMain~",
 		"widget.shadow": "~black~",
@@ -41,7 +40,7 @@
 		"minimap.selectionHighlight": "~lightMain~",
 		"editorWidget.background": "~black~",
 		"editorHoverWidget.background": "~black~",
-		"editor.lineHighlightBackground": "~darkMain~",
+		"editor.lineHighlightBackground": "~darkGrey~",
 		"editorCursor.foreground": "~lightMain~",
 		"editorWhitespace.foreground": "~darkGrey~",
 		"editorWidget.border": "~main~",
@@ -65,21 +64,53 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
-			"scope": "comment",
+			"name": "Main",
+			"scope": [
+				"comment"
+			],
 			"settings": {
 				"foreground": "~main~"
 			}
 		},
 		{
+			"name": "LightMain",
+			"scope": [
+				"constant.language",
+				"support.function",
+				"support.class",
+				"support.type",
+				"keyword.operator.new",
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "~lightMain~"
+			}
+		},
+		{
 			"name": "String",
-			"scope": "string",
+			"scope": [
+				"string",
+				"constant.numeric",
+				"meta.structure.dictionary.json string.quoted.double.json"
+			],
 			"settings": {
 				"foreground": "~string~"
 			}
 		},
 		{
-			"name": "Template Definition",
+			"name": "White",
+			"scope": [
+				"constant.character",
+				"constant.other",
+				"variable",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "~white~"
+			}
+		},
+		{
+			"name": "Purple",
 			"scope": [
 				"punctuation.definition.template-expression",
 				"punctuation.section.embedded"
@@ -89,177 +120,90 @@
 			}
 		},
 		{
-			"name": "Number",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "~string~"
-			}
-		},
-		{
-			"name": "Built-in constant",
-			"scope": "constant.language",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "~lightMain~"
-			}
-		},
-		{
-			"name": "User-defined constant",
-			"scope": "constant.character, constant.other",
-			"settings": {
-				"foreground": "~white~"
-			}
-		},
-		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"foreground": "~white~"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
+			"name": "Blue",
+			"scope": [
+				"keyword",
+				"entity.name.tag",
+				"punctuation.definition.tag"
+			],
 			"settings": {
 				"foreground": "~blue~"
 			}
 		},
 		{
+			"name": "Red",
 			"scope": [
-				"meta.embedded",
-				"source.groovy.embedded"
+				"punctuation.definition.string",
+				"keyword.operator",
+				"entity.name.type",
+				"entity.name.class",
+				"entity.name.namespace",
+				"entity.name.scope-resolution",
+				"support.constant"
 			],
 			"settings": {
-				"foreground": "~lightGrey~"
-			}
-		},
-		{
-			"name": "Quotes",
-			"scope": "punctuation.definition.string",
-			"settings": {
 				"foreground": "~red~"
 			}
 		},
 		{
-			"name": "Operators",
-			"scope": "keyword.operator",
+			"name": "Green",
+			"scope": [
+				"storage",
+				"storage.type",
+				"entity.other.attribute-name"
+			],
 			"settings": {
-				"foreground": "~red~"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "italic",
 				"foreground": "~green~"
 			}
 		},
 		{
-			"name": "Storage type",
-			"scope": "storage.type",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "~green~"
-			}
-		},
-		{
-			"name": "Class name",
-			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
-			"settings": {
-				"fontStyle": "bold underline",
-				"foreground": "~red~"
-			}
-		},
-		{
-			"name": "Inherited class",
-			"scope": "entity.other.inherited-class",
-			"settings": {
-				"fontStyle": "italic underline",
-				"foreground": "~white~"
-			}
-		},
-		{
-			"name": "Function name",
-			"scope": "entity.name.function",
+			"name": "Yellow",
+			"scope": [
+				"entity.name.function"
+			],
 			"settings": {
 				"foreground": "~yellow~"
 			}
 		},
 		{
-			"name": "Tag name",
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "~blue~"
-			}
-		},
-		{
-			"name": "Tag brackets",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "~blue~"
-			}
-		},
-		{
-			"name": "Tag attribute",
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "~green~"
-			}
-		},
-		{
-			"name": "Library function",
-			"scope": "support.function",
-			"settings": {
-				"foreground": "~lightMain~"
-			}
-		},
-		{
-			"name": "Library constant",
-			"scope": "support.constant",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "~red~"
-			}
-		},
-		{
-			"name": "Library class",
-			"scope": "support.class",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "~lightMain~"
-			}
-		},
-		{
-			"name": "Library type",
-			"scope": "support.type",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "~lightMain~"
-			}
-		},
-		{
-			"name": "JSON String",
-			"scope": "meta.structure.dictionary.json string.quoted.double.json",
-			"settings": {
-				"foreground": "~string~"
-			}
-		},
-		{
-			"name": "Exceptions",
+			"name": "Bold",
 			"scope": [
-				"keyword.operator.new"
+				"constant.language",
+				"entity.name.type",
+				"entity.name.class",
+				"entity.name.namespace",
+				"entity.name.scope-resolution",
+				"support.constant",
+				"support.class",
+				"variable.language"
 			],
 			"settings": {
-				"foreground": "~lightMain~"
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "this-self",
-			"scope": "variable.language",
+			"name": "Italic",
+			"scope": [
+				"storage",
+				"storage.type",
+				"entity.other.inherited-class",
+				"support.type"
+			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "~lightMain~"
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Underline",
+			"scope": [
+				"entity.name.type",
+				"entity.name.class",
+				"entity.name.namespace",
+				"entity.name.scope-resolution",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"fontStyle": "underline"
 			}
 		}
 	]

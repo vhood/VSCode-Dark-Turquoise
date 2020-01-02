@@ -1,8 +1,8 @@
 {
   "name": "dark-turquoise",
-  "displayName": "Dark Turquoise Theme",
-  "description": "??A theme for Visual Studio Code with calm color palette based on turquoised shades.",
-  "version": "1.0.3",
+  "displayName": "Dark Turquoise",
+  "description": "A turquoise-based theme for Visual Studio Code",
+  "version": "1.0.4",
   "publisher": "999-Victor",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
@@ -16,7 +16,8 @@
     "Deep theme",
     "Rainbow theme",
     "Accessible theme",
-    "Dark theme"
+    "Dark theme",
+    "Beautiful theme"
   ],
   "galleryBanner": {
     "color": "#001314",
@@ -31,9 +32,9 @@
   "icon": "logo.png",
   "contributes": {
     "themes": [{
-      "label": "Dark Turquoise",
+      "label": "Dark Turquoise ~ Rainbow",
       "uiTheme": "vs-dark",
-      "path": "./themes/dark-turquoise-color-theme.json"
+      "path": "./themes/dark-turquoise-rainbow.json"
     }]
   }
 }

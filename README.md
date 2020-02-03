@@ -1,24 +1,32 @@
 # Dark Turquoise
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![License](https://img.shields.io/github/license/999-Victor/vscode-dark-turquoise-theme)](https://github.com/999-Victor/vscode-dark-turquoise-theme)  
-[![Issues](https://img.shields.io/github/issues/999-Victor/vscode-dark-turquoise-theme)](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)  
+[![License](https://img.shields.io/github/license/999-Victor/VSCode-Dark-Turquoise)](https://github.com/999-Victor/VSCode-Dark-Turquoise)  
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
+[![Issues](https://img.shields.io/github/issues/999-Victor/VSCode-Dark-Turquoise)](https://github.com/999-Victor/VSCode-Dark-Turquoise/issues)  
 
-A turquoise-based Visual Studio Code theme.  
-Calm color scheme with rainbow color palette helps you focus on all code points without straining.  
-Borders of matched bracket pair are highlighted in purple for your attention (configurable).  
+A turquoise-based theme package for [Visual Studio Code](https://code.visualstudio.com/).
+>*A calm colors helps you don't strain.*  
+*Different color schemes created for different brightness.*  
+*Borders of matched bracket pair are highlighted in purple for your attention (configurable).*  
 
 **[Vote please](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)**
 
 ***
 
-## Theme
+## Themes
 
-**Dark Turquoise ~ Rainbow**  
-This theme is better for low brightness displays
-![Dark Turquoise ~ Rainbow](rainbow.png)
+### Dark Turquoise ~ Rainbow
+
+This theme has **rainbow** color palette and this theme colors make this theme better for **low brightness** displays.
+![Dark Turquoise ~ Rainbow](media/rainbow.png)
+
+### Dark Turquoise ~ Night Rainbow
+
+This theme has **rainbow** color palette and this theme colors make this theme better for **high brightness** displays.
+![Dark Turquoise ~ Rainbow](media/night-rainbow.png)
 
 ## Installation
 
@@ -27,9 +35,9 @@ Install the theme from [here](https://marketplace.visualstudio.com/items?itemNam
 1. Launch [Code](https://code.visualstudio.com/).
 2. Choose Extensions from the activity bar or serch command `Intall Extentions` or press `cmd+shift+X`.
 3. Search for **dark turquoise**.
-4. Install **Dark Turquoise Theme**.
+4. Install extention **Dark Turquoise**.
 5. Choose `Preferenses: Color Theme` or press `cmd+K+T`
-6. Select **Dark Turquoise ~ Rainbow** and enjoy!
+6. Select any **Dark Turquoise** theme and enjoy it!
 
 **cmd** is **ctrl** in Windows.
 
@@ -59,8 +67,9 @@ All brackets are colorized to gray by [Bracket Pair Colorizer 2](https://marketp
 
 ```json
 "bracket-pair-colorizer-2.colors": [
-    "#dcdcdc",
-    "#bbbbbb"
+    "#d3d3d3",
+    "#c0c0c0",
+    "#a9a9a9"
 ],
 ```
 

@@ -1,5 +1,18 @@
 # Release Notes
 
+## [1.1.0]
+
+>**Add**
+
+- Dark Turquoise ~ Night Rainbow
+- JS theme builder
+
+>**Change**
+
+- statusbar's debug mode colors
+- file system
+- color declarations
+
 ## [1.0.4]
 
 >**Add**

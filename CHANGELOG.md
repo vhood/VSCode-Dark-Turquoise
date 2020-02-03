@@ -1,6 +1,6 @@
 # Release Notes
 
-## [1.1.0]
+## [[1.1.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.1.0)] - 2020-01-08
 
 >**Add**
 
@@ -13,7 +13,7 @@
 - file system
 - color declarations
 
-## [1.0.4]
+## [[1.0.4](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.4)] - 2020-01-02
 
 >**Add**
 
@@ -32,7 +32,7 @@
 - dark gray color from `#333333` to `#1e1e1e`
 - README.md
 
-## [1.0.3]
+## [[1.0.3](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.3)] - 2019-12-06
 
 >**Changed**
 
@@ -43,10 +43,10 @@
 - list error color
 - list warning color
 
-## [1.0.2]
+## [[1.0.2](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.2)] - 2019-11-14
 
 Initial release
 
 ***
 
-versions **1.0.0** and **1.0.1** had been removed.
+*versions **1.0.0** and **1.0.1** had been removed.*

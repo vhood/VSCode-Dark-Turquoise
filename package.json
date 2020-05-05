@@ -1,10 +1,10 @@
 {
 	"name": "dark-turquoise",
 	"displayName": "Dark Turquoise",
-	"description": "A turquoise-based theme pack for Visual Studio Code",
-	"version": "1.1.0",
+	"description": "Themes for Visual Studio Code",
+	"version": "2.0.0",
 	"publisher": "999-Victor",
-	"license": "SEE LICENSE IN LICENSE.md",
+	"license": "SEE LICENSE IN LICENSE",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/999-victor/VSCode-Dark-Turquoise"
@@ -36,6 +36,16 @@
 	"contributes": {
 		"themes": [
 			{
+				"label": "Dark Turquoise",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-turquoise_color-theme.json"
+			},
+			{
+				"label": "Dark Turquoise ~ Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-turquoise-night_color-theme.json"
+			},
+			{
 				"label": "Dark Turquoise ~ Rainbow",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-turquoise-rainbow_color-theme.json"
@@ -47,7 +57,8 @@
 			}
 		]
 	},
-	"dependencies": {
+	"dependencies": {},
+	"devDependencies": {
 		"del": "^5.1.0"
 	}
 }

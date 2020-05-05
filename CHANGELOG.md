@@ -1,5 +1,22 @@
 # Release Notes
 
+## [[2.0.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.0.0)] - 2020-05-05
+
+>**Add**
+
+- Dark Turquoise
+- Dark Turquoise ~ Night
+
+>**Change**
+
+- support classes color in rainbow themes from turquoise to purple
+- sidebar headers
+- README.md
+
+>**Remove**
+
+- underlines
+
 ## [[1.1.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.1.0)] - 2020-01-08
 
 >**Add**
@@ -19,13 +36,13 @@
 
 - CHANGELOG.md
 
->**Removed**
+>**Remove**
 
 - light gray color
 - "meta.embedded" scope
 - "source.groovy.embedded" scope
 
->**Changed**
+>**Change**
 
 - menu background color to dark gray
 - line highlight baclground color to dark gray
@@ -34,11 +51,11 @@
 
 ## [[1.0.3](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.3)] - 2019-12-06
 
->**Changed**
+>**Change**
 
 - notification backgrond color from black to dark gray
 
->**Removed**
+>**Remove**
 
 - list error color
 - list warning color

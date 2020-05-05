@@ -1,4 +1,4 @@
-let Builder = require('./constructor');
+let Builder = require('./builder');
 
 const rainbow = {
         'main': '#116062',
@@ -21,16 +21,18 @@ const rainbow = {
         'darkMain': '#0d1c22',
         'background': '#030705',
         'black': '#0a0a0a',
-        'white': '#e6e6e6',//'#faf0e6',
+        'white': '#e6e6e6',
         'darkGrey': '#131313',
         'string': '#bca366',
         'red': '#cc4e5c',
         'yellow': '#f7d263',
         'green': '#00c77b',
         'blue': '#4b93eb',
-        'purple': '#dd80cc'//'#d17bd1'
+        'purple': '#dd80cc'
     };
 
 Builder.clear()
+    .create('dark-turquoise.json', rainbow, 'Dark Turquoise', 'vs-dark')
+    .create('dark-turquoise.json', rainbow_night, 'Dark Turquoise ~ Night', 'vs-dark')
     .create('dark-turquoise~rainbow.json', rainbow, 'Dark Turquoise ~ Rainbow', 'vs-dark')
     .create('dark-turquoise~rainbow.json', rainbow_night, 'Dark Turquoise ~ Night Rainbow', 'vs-dark');

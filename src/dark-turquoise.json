@@ -77,9 +77,9 @@
 			"name": "LightMain",
 			"scope": [
 				"constant.language",
-				"support.function",
+				"punctuation.definition.template-expression",
 				"support.type",
-				"keyword.operator.new",
+				"keyword",
 				"variable.language"
 			],
 			"settings": {
@@ -91,7 +91,10 @@
 			"scope": [
 				"string",
 				"constant.numeric",
-				"meta.structure.dictionary.json string.quoted.double.json"
+				"meta.structure.dictionary.json string.quoted.double.json",
+				"punctuation.definition.string",
+				"support.constant",
+				"support.class"
 			],
 			"settings": {
 				"foreground": "~string~"
@@ -102,48 +105,23 @@
 			"scope": [
 				"constant.character",
 				"constant.other",
-				"variable",
-				"entity.other.inherited-class"
+				"variable"
 			],
 			"settings": {
 				"foreground": "~white~"
 			}
 		},
 		{
-			"name": "Purple",
-			"scope": [
-				"punctuation.definition.template-expression",
-				"punctuation.section.embedded",
-				"support.class"
-			],
-			"settings": {
-				"foreground": "~purple~"
-			}
-		},
-		{
 			"name": "Blue",
 			"scope": [
-				"keyword",
 				"entity.name.tag",
-				"punctuation.definition.tag"
+				"punctuation.definition.tag",
+				"support.function",
+				"keyword.operator.new",
+				"punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "~blue~"
-			}
-		},
-		{
-			"name": "Red",
-			"scope": [
-				"punctuation.definition.string",
-				"keyword.operator",
-				"entity.name.type",
-				"entity.name.class",
-				"entity.name.namespace",
-				"entity.name.scope-resolution",
-				"support.constant"
-			],
-			"settings": {
-				"foreground": "~red~"
 			}
 		},
 		{
@@ -169,12 +147,11 @@
 			"name": "Bold",
 			"scope": [
 				"constant.language",
-				"entity.name.type",
 				"entity.name.class",
-				"entity.name.namespace",
 				"entity.name.scope-resolution",
 				"support.constant",
-				"variable.language"
+				"variable.language",
+				"support.class"
 			],
 			"settings": {
 				"fontStyle": "bold"

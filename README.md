@@ -1,32 +1,28 @@
 # Dark Turquoise
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)
-[![License](https://img.shields.io/github/license/999-Victor/VSCode-Dark-Turquoise)](https://github.com/999-Victor/VSCode-Dark-Turquoise)  
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/999-Victor.dark-turquoise.svg)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Issues](https://img.shields.io/github/issues/999-Victor/VSCode-Dark-Turquoise)](https://github.com/999-Victor/VSCode-Dark-Turquoise/issues)  
-
-A turquoise-based theme package for [Visual Studio Code](https://code.visualstudio.com/).
->*A calm colors helps you don't strain.*  
-*Different color schemes created for different brightness.*  
-*Borders of matched bracket pair are highlighted in purple for your attention (configurable).*  
-
-**[Vote please](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)**
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/999-Victor.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/999-Victor.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/999-Victor.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)  
 
 ***
 
-## Themes
+A turquoise-based theme package for [Visual Studio Code](https://code.visualstudio.com/).  
+  
+**Night** themes for the high brightness displays.  
+**Rainbow** themes has rich color palette.  
 
-### Dark Turquoise ~ Rainbow
+***
 
-This theme has **rainbow** color palette and this theme colors make this theme better for **low brightness** displays.
-![Dark Turquoise ~ Rainbow](media/rainbow.png)
+## Preview
 
-### Dark Turquoise ~ Night Rainbow
-
-This theme has **rainbow** color palette and this theme colors make this theme better for **high brightness** displays.
-![Dark Turquoise ~ Rainbow](media/night-rainbow.png)
+* **Dark Turquoise**
+![Dark Turquoise](media/dt.png)
+* **Dark Turquoise ~ Night**
+![Dark Turquoise ~ Night](media/dtn.png)
+* **Dark Turquoise ~ Rainbow**
+![Dark Turquoise ~ Rainbow](media/dtr.png)
+* **Dark Turquoise ~ Night Rainbow**
+![Dark Turquoise ~ Noght Rainbow](media/dtnr.png)
 
 ## Installation
 
@@ -34,21 +30,24 @@ Install the theme from [here](https://marketplace.visualstudio.com/items?itemNam
 
 1. Launch [Code](https://code.visualstudio.com/).
 2. Choose Extensions from the activity bar or serch command `Intall Extentions` or press `cmd+shift+X`.
-3. Search for **dark turquoise**.
-4. Install extention **Dark Turquoise**.
+3. Search for `dark turquoise`.
+4. Install extention `Dark Turquoise`.
 5. Choose `Preferenses: Color Theme` or press `cmd+K+T`
-6. Select any **Dark Turquoise** theme and enjoy it!
+6. Select any `Dark Turquoise` theme and enjoy it!
 
-**cmd** is **ctrl** in Windows.
+`cmd` is `ctrl` in Windows.
 
 ## Configuration
 
-You may change the color of brackes match border (*default it's purple*), to do this follow the steps:
+To change the color of brackes match border (*purple by default*), add to settings.json:
 
-1. Open User Settings (press `cmd+,` / `ctrl+,`)
-2. Search *settings.json*
-3. Edit *settings.json*
-4. add `"editorBracketMatch.border": "#dcdcdc"` (*you may choose any color*)
+```json
+"workbench.colorCustomizations": {
+    "[Dark Turquoise ~ THEME]": {
+        "editorBracketMatch.border": "#a9a9a9"
+    }
+},
+```
 
 ### Preferences at the preview
 
@@ -73,13 +72,9 @@ All brackets are colorized to gray by [Bracket Pair Colorizer 2](https://marketp
 ],
 ```
 
-also this extension adds nice current section lines.
+Colorizer also adds nice current section lines.
 
 ***
 
-[Release Notes](CHANGELOG.md)  
-[Issues](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)
-
-***
-
-[![Paypal.me](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/999Victor)  
+* [Release Notes](CHANGELOG.md)  
+* [Issues](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)

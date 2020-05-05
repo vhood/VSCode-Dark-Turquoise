@@ -49,9 +49,22 @@ To change the color of brackes match border (*purple by default*), add to settin
 },
 ```
 
-### Preferences at the preview
+If you want more, open an issue and tell me what you'd like to change
 
-I recommend the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension with these user settings
+## Best practices
+
+### Icons
+
+Try **[material icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)** with **turquoise folders!**  
+
+Add this to your settings  
+`"material-icon-theme.folders.color": "#5ec4cd",`  
+  
+If you use a night theme, the color is `#00b3b3`
+
+### UI helpers
+
+I recommend the **[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)** extension with these user settings
 
 ```json
 "indentRainbow.colors": [
@@ -61,8 +74,8 @@ I recommend the [indent-rainbow](https://marketplace.visualstudio.com/items?item
     "rgba(255,255,255,0.02)",
 ],
 ```
-
-All brackets are colorized to gray by [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+  
+Color editor's brackets in shades of grey by **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**
 
 ```json
 "bracket-pair-colorizer-2.colors": [
@@ -72,7 +85,7 @@ All brackets are colorized to gray by [Bracket Pair Colorizer 2](https://marketp
 ],
 ```
 
-Colorizer also adds nice current section lines.
+Colorizer also adds nice current section lines!
 
 ***
 

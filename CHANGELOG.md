@@ -1,5 +1,15 @@
 # Release Notes
 
+## [[2.1.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.0)] - 2020-05-06
+
+>**Add**
+
+- color for keys of objects
+
+>**Fix**
+
+- README.md
+
 ## [[2.0.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.0.0)] - 2020-05-05
 
 >**Add**

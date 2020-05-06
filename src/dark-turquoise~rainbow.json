@@ -80,7 +80,8 @@
 				"support.function",
 				"support.type",
 				"keyword.operator.new",
-				"variable.language"
+				"variable.language",
+				"meta.object-literal.key"
 			],
 			"settings": {
 				"foreground": "~lightMain~"
@@ -103,7 +104,8 @@
 				"constant.character",
 				"constant.other",
 				"variable",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"punctuation.separator.key-value"
 			],
 			"settings": {
 				"foreground": "~white~"

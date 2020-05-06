@@ -80,7 +80,8 @@
 				"punctuation.definition.template-expression",
 				"support.type",
 				"keyword",
-				"variable.language"
+				"variable.language",
+				"meta.object-literal.key"
 			],
 			"settings": {
 				"foreground": "~lightMain~"
@@ -105,7 +106,8 @@
 			"scope": [
 				"constant.character",
 				"constant.other",
-				"variable"
+				"variable",
+				"punctuation.separator.key-value"
 			],
 			"settings": {
 				"foreground": "~white~"

@@ -39,7 +39,7 @@ Install the theme from [here](https://marketplace.visualstudio.com/items?itemNam
 
 ## Configuration
 
-To change the color of brackes match border (*purple by default*), add to settings.json:
+To change the color of brackes match border (purple by default), add to settings.json:
 
 ```json
 "workbench.colorCustomizations": {
@@ -55,7 +55,7 @@ If you want more, open an issue and tell me what you'd like to change
 
 ### Icons
 
-Try **[material icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)** with **turquoise folders!**  
+Try the **[material icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)** with **turquoise folders!**  
 
 Add this to your settings  
 `"material-icon-theme.folders.color": "#5ec4cd",`  
@@ -75,7 +75,7 @@ I recommend the **[indent-rainbow](https://marketplace.visualstudio.com/items?it
 ],
 ```
   
-Color editor's brackets in shades of grey by **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**
+Colorize editor's brackets in shades of grey by **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**
 
 ```json
 "bracket-pair-colorizer-2.colors": [

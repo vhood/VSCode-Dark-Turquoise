@@ -1,26 +1,24 @@
 {
 	"name": "dark-turquoise",
 	"displayName": "Dark Turquoise",
-	"description": "Themes for Visual Studio Code",
-	"version": "2.1.0",
-	"publisher": "999-Victor",
+	"description": "Deep dark themes for Visual Studio Code",
+	"version": "2.1.1",
+	"publisher": "vhood",
 	"license": "SEE LICENSE IN LICENSE",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/999-victor/VSCode-Dark-Turquoise"
+		"url": "https://github.com/vhood/vscode-dark-turquoise"
 	},
 	"scripts": {
 		"build": "node scripts/build.js"
 	},
 	"keywords": [
-		"Theme",
-		"Turquoise",
-		"Dark Turquoise",
-		"Deep theme",
-		"Rainbow theme",
-		"Accessible theme",
-		"Dark theme",
-		"Beautiful theme"
+		"theme",
+		"dark",
+		"deep dark",
+		"turquoise",
+		"rainbow",
+		"dark turquoise"
 	],
 	"galleryBanner": {
 		"color": "#030705",

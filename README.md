@@ -1,8 +1,8 @@
 # Dark Turquoise
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/999-Victor.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/999-Victor.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/999-Victor.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise&ssr=false#review-details)  
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise&ssr=false#review-details)  
 
 ***
 
@@ -26,7 +26,7 @@ A turquoise-based theme package for [Visual Studio Code](https://code.visualstud
 
 ## Installation
 
-Install the theme from [here](https://marketplace.visualstudio.com/items?itemName=999-Victor.dark-turquoise) or follow the steps:
+Install the theme from [here](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise) or follow the steps:
 
 1. Launch [Code](https://code.visualstudio.com/).
 2. Choose Extensions from the activity bar or serch command `Intall Extentions` or press `cmd+shift+X`.
@@ -90,4 +90,4 @@ Colorizer also adds nice current section lines!
 ***
 
 * [Release Notes](CHANGELOG.md)  
-* [Issues](https://github.com/999-Victor/vscode-dark-turquoise-theme/issues)
+* [Issues](https://github.com/vhood/vscode-dark-turquoise-theme/issues)

@@ -18,22 +18,22 @@ let Builder = {
     },
 
     create: (source, colors, name, type) => {
-        let theme = JSON.stringify(require(`../src/${source}`)),
-            themePath = `./themes/${name.toLowerCase().replace(' ~ ', '-').split(' ').join('-')}_color-theme.json`;
+        let themeSrc = JSON.stringify(require(`../src/${source}`)),
+            themeDist = `./themes/${name.toLowerCase().replace(' ~ ', '-').split(' ').join('-')}_color-theme.json`;
 
         for (let color in colors) {
-            theme = theme.replace(new RegExp(`~${color}~`, 'g'), `${colors[color]}`);
+            themeSrc = themeSrc.replace(new RegExp(`~${color}~`, 'g'), `${colors[color]}`);
         }
 
         package.contributes.themes.push({
             label: name,
             uiTheme: type,
-            path: themePath
+            path: themeDist
         });
 
         try {
-            fs.writeFileSync(themePath, theme);
-            fs.writeFileSync('package.json', JSON.stringify(package, null, '\t'));
+            fs.writeFileSync(themeDist, themeSrc + "\n");
+            fs.writeFileSync('package.json', JSON.stringify(package, null, '\t') + "\n");
         } catch (err) {
             return console.error(err);
         }

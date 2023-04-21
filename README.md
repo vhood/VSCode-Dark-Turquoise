@@ -1,8 +1,8 @@
 # Dark Turquoise
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise&ssr=false#review-details)  
+[![Version](https://vsmarketplacebadges.dev/version-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
+[![Rating](https://vsmarketplacebadges.dev/rating-star/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise&ssr=false#review-details)  
 
 ***
 
@@ -51,7 +51,7 @@ To change the color of brackes match border (purple by default), add to settings
 
 If you want more, open an issue and tell me what you'd like to change
 
-## Best practices
+## Recommendations
 
 ### Icons
 
@@ -74,18 +74,6 @@ I recommend the **[indent-rainbow](https://marketplace.visualstudio.com/items?it
     "rgba(255,255,255,0.02)",
 ],
 ```
-  
-Colorize editor's brackets in shades of grey by **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**
-
-```json
-"bracket-pair-colorizer-2.colors": [
-    "#d3d3d3",
-    "#c0c0c0",
-    "#a9a9a9"
-],
-```
-
-Colorizer also adds nice current section lines!
 
 ***
 

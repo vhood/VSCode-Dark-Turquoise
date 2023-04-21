@@ -1,5 +1,18 @@
 # Release Notes
 
+## [[2.1.2](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.2)] - 2023-04-21
+
+>**Fix**
+
+- README.md links
+- dependency versions
+
+## [[2.1.1](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.1)] - 2020-05-27
+
+>**Change**
+
+- publisher ID
+
 ## [[2.1.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.0)] - 2020-05-06
 
 >**Add**

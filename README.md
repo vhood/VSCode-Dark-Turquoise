@@ -1,15 +1,15 @@
 # Dark Turquoise
 
-[![Version](https://vsmarketplacebadges.dev/version-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
-[![Rating](https://vsmarketplacebadges.dev/rating-star/vhood.dark-turquoise.svg?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise&ssr=false#review-details)  
+[![Version](https://img.shields.io/visual-studio-marketplace/v/vhood.dark-turquoise?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/vhood.dark-turquoise?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/vhood.dark-turquoise?style=for-the-badge&colorA=10262e&colorB=116062)](https://marketplace.visualstudio.com/items?itemName=vhood.dark-turquoise&ssr=false#review-details)
 
 ***
 
-A turquoise-based theme package for [Visual Studio Code](https://code.visualstudio.com/).  
-  
+A turquoise-based theme package for [Visual Studio Code](https://code.visualstudio.com/).
+
 **Night** themes for the high brightness displays.  
-**Rainbow** themes has rich color palette.  
+**Rainbow** themes has rich color palette.
 
 ***
 
@@ -58,8 +58,8 @@ If you want more, open an issue and tell me what you'd like to change
 Try the **[material icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)** with **turquoise folders!**  
 
 Add this to your settings  
-`"material-icon-theme.folders.color": "#5ec4cd",`  
-  
+`"material-icon-theme.folders.color": "#5ec4cd",`
+
 If you use a night theme, the color is `#00b3b3`
 
 ### UI helpers

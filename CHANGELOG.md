@@ -1,5 +1,11 @@
 # Release Notes
 
+## [[2.1.3](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.3)] - 2023-06-06
+
+>**Fix**
+
+- README.md badges
+
 ## [[2.1.2](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.2)] - 2023-04-21
 
 >**Fix**

@@ -1,6 +1,13 @@
-.vscode/**
 .gitignore
 .gitattributes
+.editorconfig
+
+.env.default
+
+.dockerignore
+Dockerfile
+
+.vscode/**
 src/**
 scripts/**
 node_modules/**

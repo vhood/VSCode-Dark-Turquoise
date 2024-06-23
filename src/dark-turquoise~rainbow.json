@@ -81,7 +81,8 @@
 				"support.type",
 				"keyword.operator.new",
 				"variable.language",
-				"meta.object-literal.key"
+				"meta.object-literal.key",
+        "entity.name"
 			],
 			"settings": {
 				"foreground": "~lightMain~"

@@ -1,0 +1,10 @@
+media/
+.git/
+.vscode/
+
+.gitattributes
+.gitignore
+.vscodeignore
+.env.default
+*.md
+LICENSE

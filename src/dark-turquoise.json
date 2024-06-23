@@ -81,7 +81,8 @@
 				"support.type",
 				"keyword",
 				"variable.language",
-				"meta.object-literal.key"
+				"meta.object-literal.key",
+        "entity.name"
 			],
 			"settings": {
 				"foreground": "~lightMain~"
@@ -107,7 +108,12 @@
 				"constant.character",
 				"constant.other",
 				"variable",
-				"punctuation.separator.key-value"
+				"punctuation.separator.key-value",
+        "entity.other.inherited-class",
+        "entity.name.type",
+				"entity.name.class",
+				"entity.name.namespace",
+				"entity.name.scope-resolution"
 			],
 			"settings": {
 				"foreground": "~white~"

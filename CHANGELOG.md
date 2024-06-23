@@ -1,25 +1,32 @@
 # Release Notes
 
-## [[2.1.3](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.3)] - 2023-06-06
+## [[2.2.0](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.2.0)] - 2024-06-23
+
+>**Add**
+
+- entity names color
+- docker for development
+
+## [[2.1.3](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.1.3)] - 2023-06-06
 
 >**Fix**
 
 - README.md badges
 
-## [[2.1.2](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.2)] - 2023-04-21
+## [[2.1.2](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.1.2)] - 2023-04-21
 
 >**Fix**
 
 - README.md links
 - dependency versions
 
-## [[2.1.1](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.1)] - 2020-05-27
+## [[2.1.1](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.1.1)] - 2020-05-27
 
 >**Change**
 
 - publisher ID
 
-## [[2.1.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.1.0)] - 2020-05-06
+## [[2.1.0](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.1.0)] - 2020-05-06
 
 >**Add**
 
@@ -29,7 +36,7 @@
 
 - README.md
 
-## [[2.0.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v2.0.0)] - 2020-05-05
+## [[2.0.0](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.0.0)] - 2020-05-05
 
 >**Add**
 
@@ -46,7 +53,7 @@
 
 - underlines
 
-## [[1.1.0](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.1.0)] - 2020-01-08
+## [[1.1.0](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v1.1.0)] - 2020-01-08
 
 >**Add**
 
@@ -59,7 +66,7 @@
 - file system
 - color declarations
 
-## [[1.0.4](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.4)] - 2020-01-02
+## [[1.0.4](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v1.0.4)] - 2020-01-02
 
 >**Add**
 
@@ -78,7 +85,7 @@
 - dark gray color from `#333333` to `#1e1e1e`
 - README.md
 
-## [[1.0.3](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.3)] - 2019-12-06
+## [[1.0.3](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v1.0.3)] - 2019-12-06
 
 >**Change**
 
@@ -89,7 +96,7 @@
 - list error color
 - list warning color
 
-## [[1.0.2](https://github.com/999-Victor/VSCode-Dark-Turquoise/releases/tag/v1.0.2)] - 2019-11-14
+## [[1.0.2](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v1.0.2)] - 2019-11-14
 
 Initial release
 

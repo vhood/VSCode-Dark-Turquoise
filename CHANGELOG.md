@@ -1,5 +1,15 @@
 # Release Notes
 
+## [[2.2.1](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.2.1)] - 2024-10-08
+
+>**Add**
+
+- vsce in docker
+
+>**Fix**
+
+- development [CVE-2024-4067](https://github.com/micromatch/micromatch/pull/266)
+
 ## [[2.2.0](https://github.com/vhood/vscode-dark-turquoise/releases/tag/v2.2.0)] - 2024-06-23
 
 >**Add**
